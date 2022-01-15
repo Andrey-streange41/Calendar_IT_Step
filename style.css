@@ -1,0 +1,92 @@
+*
+{
+    box-sizing: border-box;
+}
+
+
+main
+{
+    width: 1920px;
+    height: 1000px;
+    border: solid 2px black;
+    
+}
+
+
+.wrapper
+{
+    border: black 1px solid;
+    
+   
+   
+    width: 50%;
+    height: 50%;
+}
+
+.blockWrapper
+{
+    
+    width: 50%;
+    height: 100%;
+    
+    display: inline-block;
+   
+    text-align: top;
+   
+}
+
+.map
+{
+    width: 49%;
+    vertical-align: top;
+    padding-top:25px ;
+    padding-bottom: 25px;
+}
+
+.calendar
+{
+    font-size: large;
+    width: 50%;
+}
+
+.calendar>tbody>tr>td
+{
+    text-align: center;
+    padding:5px 20px;
+    border:  solid rgb(255, 255, 255);
+   
+
+}
+
+.calendar>tbody>tr:first-child
+{
+     background:  rgb(139, 253, 63);
+}
+.calendar>tbody>tr:last-child
+{
+     background:  rgb(139, 253, 63);
+}
+.calendar>thead>tr>th:first-child
+{
+    text-align: left;
+}
+.calendar>thead>tr>th:last-child
+{
+    text-align: right;
+}
+
+.calendar>thead
+{
+    font-weight: bold;
+    font-style: italic;
+    color: green;
+}
+
+.calendar>tbody>tr>td:last-child
+{
+    color: red;
+}
+.calendar>tbody>tr>td:nth-child(6)
+{
+    color: red;
+}
